@@ -5,63 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kaciukas</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <main style="display: inline-block; width: 60%; 
-    margin-left: 20%; margin-top: 100px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+    <main>
 
-        <div style="display: inline-block; width: 100%; margin-top: 20px; "> 
-            <img style="float: left;" src="./pawz.png" alt="Pawz">
-            <a  style="float: right; font-weight: bold; display: inline-block; 
-                        padding: 2px 20px; text-decoration: none; color: black;" href="#">Contact Us</a>
-            <a  style="float: right; font-weight: bold; display: inline-block; 
-                        padding: 2px 20px; text-decoration: none; color: black;"href="#">About Us</a>
-            <a  style="float: right; font-weight: bold; display: inline-block; 
-                        padding: 2px 20px; text-decoration: none; color: black; " href="#">Products</a>
-            <a  style="float: right; font-weight: bold; display: inline-block; 
-                        padding: 2px 20px; text-decoration: none; color: black; " href="#">Home</a>
+        <div class="header"> 
+            <img class="logo" src="./pawz.png" alt="Pawz">
+            <nav class="header-links">
+                <a  href="#">Home</a>
+                <a  href="#">Products</a>
+                <a  href="#">About us</a>
+                <a  href="#">Contact us</a>
+            </nav>
 
         </div>
 
-        <div style="width: 45%; float: left; display: inline-block; margin: 0;" > 
-            <h1 style="margin: 100px 0px 0px 0px; 
-                       font-weight:normal; 
-                       line-height: 30px; 
-                       font-size: 50pt;"> 404</h1>
-            <h1 style="margin: 0; 
-                       font-size: 52pt;
-                       line-height: 80px;"> Oops! </h1>
-            <img style="inline-block; 
-                        margin: 0;"  src="./line.png" alt="line"> 
-            <p style="font-size: 15pt"> Ok this is awkward, but I don't think you should be here. </p>
-            <div style=" margin-top: 35px;">
-                <a style=" 
-                         float: left; 
-                         margin-right: 20px; 
-                         border: 2px solid #6CBEDD; 
-                         padding: 5px 30px; 
-                         border-radius: 25px;
-                         display: inline-block;
-                         background-color: #6CBEDD; 
-                         color: white;
-                         font-weight: bold;
-                         text-decoration: none;" href="#">Home</a>
-                <a style="
-                         border: 2px solid #6CBEDD;
-                         padding: 5px 30px;
-                         border-radius: 25px;
-                         display: inline-block;
-                         background-color: white;
-                         color: black;
-                         font-weight: bold;
-                         text-decoration: none;" href="#">Back</a>
+        <div class="left-column"> 
+            <h1 class="main-title"> 404</h1>
+            <h1 class="oops">Oops!</h1>
+            <p class="content">Ok this is awkward, but I don't think you should be here. </p>
+            <div class="btn">
+                <a class="btn" href="#">Home</a>
+                <a class="btn btn-white" href="#">Back</a>
             </div>
         </div>
-        <img style="margin-top: 30px; 
-                    width:55%; 
-                    float: right;  
-                    display: inline-block;
-                    object-fit: cover;" src="./kaciukas3.jpg" alt="kaciukas">
+        <img class="right-column" src="./kaciukas.png" alt="kaciukas">
 
 
     </main>
